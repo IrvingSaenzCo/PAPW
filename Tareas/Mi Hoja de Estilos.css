@@ -1,0 +1,14 @@
+#navegadorColor{
+    background-color:#607d8b;
+}
+li{
+    display:inline;
+}
+aside{
+    float:left;
+    height:200px;
+
+}
+#imagen1{
+    resize:both;
+}

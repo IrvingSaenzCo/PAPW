@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es"> <!--En esta parte se agrega un atributo, en este caso lang especifica el idioma-->
+<head> <!--Funciona como las cabeceras de un código de visual studio-->
+    <meta charset="iso-8859-1" />
+    <meta name="description" content="Esta es mi primer intento de HTML"/> <!--Descripción de la página cuando se busca-->
+    <meta name="keywords" content="HTML5, JavaScript"/>                     <!--Palabras clave que permite al buscador identificar nuestra página-->
+    <title>Perfil</title>
+    <link rel="stylesheet" href="Mi Hoja de Estilos.css"/>                     <!--Hace referencia a algún documento que desea agregarse
+                                                                                rel= relativo a el tipo de archivo
+                                                                                href= archivo de referencia-->
+</head>
+
+<body>
+    <header> <h1>Tarea #1</h1></header>
+    <nav id="navegadorColor">                                           <!--Barra de navegación-->
+        <ul>                                        <!--Construye una lista de elementos desordenada-->
+            <li>Primer elemento de nav  </li>
+            <li>Segundo elemento de nav </li>
+            <li>Tercer elemento de nav </li>
+        </ul>
+    </nav>
+    
+    <aside>
+                                                        <!--Barra lateral-->
+        <blockquote>Primer elemento de la barra lateral</blockquote>        <!--Etiqueta para largas citas-->
+        <blockquote>Segundo elemento de la barra lateral</blockquote>
+        <blockquote>Tercer elemento de la barra lateral</blockquote>
+    </aside>
+
+    <section>
+        <!--Contenido principal de una página:
+            Esta parte está hecha con la etiqueta de section.
+    Aquí debe de estar todo el contenido principal de la página-->
+        <article>
+            <!--Esto permite agrupar cualquier tipo de contenido similar-->
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: Section</mark></n>
+                </h2>
+            </header>
+
+            <p>
+                Sirve para determinar qué contenido corresponde a qué parte de un esquema y representa una sección genérica de un contenido.
+            </p>
+        </article>
+
+        <article>
+            <!--Esto permite agrupar cualquier tipo de contenido similar-->
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: Article</mark></n>
+                </h2>
+            </header>
+
+            <p>
+                representa una composición auto-contenida en un documento, página, una aplicación o en el sitio,
+                que se destina a distribuir de forma independiente o reutilizable
+
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>
+                    <n><mark>Etiqueta:nav</mark></n>
+                </h2>
+            </header>
+            <p>
+                Sólamente contiene enlaces a las diferentes secciones de la web
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: Blockquote</mark></n>
+                </h2>
+            </header>
+            <p>
+                Se usa para escribir una cita textual o un párrafo exacto y que éste se diferencie del resto del texto.
+                El efecto que nos muestra es que crea unos espacios a la derecha y a la izquierda del texto, para que se diferencie de los demás.
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: ul</mark></n>
+                </h2>
+            </header>
+            <p>
+                Hace referencia a hacer una lista de elementos no ordenada. Cada elemento debe
+                ser agregado con una etiqueta hija <strong>"< li  >< /li >"</strong>.
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: li</mark></n>
+                </h2>
+            </header>
+            <p>
+                Representa un elemnto de una lista ordenada <strong>(etiqueta < ol >)</strong>
+                o una lista no ordenada. El atributo value solamente está permitido
+                en una lista ordenada, en una lista desordenada su valor en inválido.
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: figure</mark></n>
+                </h2>
+            </header>
+            <p>
+                Hace referencía a contenido relacionado, así como imagenes, ilustraciones.
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: time</mark></n>
+                </h2>
+            </header>
+            <p>
+                Es una etiqueta que define una manera de leer el tiempo de manera legible, este elemento también puede ser usado para
+                codificar el tiempo de tal manera que la computadora lo pueda entender para que a través de esto
+                se puedan ofrecer eventos dependiendo de la fecha, cumpleaños, etc..
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: footer</mark></n>
+                </h2>
+            </header>
+            <p>
+                Representa el pie de un documento o sección.
+                La información que se suele añadir en este bloque es el autor del documento,
+                enlaces a contenido relacionado, información de copyright, avisos legales, etc.
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: mark</mark></n>
+                </h2>
+            </header>
+            <p>
+                Esta etiqueta permite remarcar las palabras de un texto en este formato.
+            </p>
+        </article>
+
+        <article>
+            <figure>
+                <img id="imagen1" src="Imagenes/estructura-HTML5.png" />
+                <figcaption>
+                    Esta es una pequeña estructura básica que encontré de una página
+                    en HTML
+                </figcaption>
+            </figure>
+
+        </article>
+
+        <article>
+            <!--Esto permite agrupar cualquier tipo de contenido similar-->
+            <header>
+                <h2>
+                    <n><mark>Etiqueta: aside</mark></n>
+                </h2>
+            </header>
+
+            <p>
+                representa una sección de una página que tiene relación con el contenido que está mostrando la pagina web 
+                y que podría ser considerado por separado de ese contenido. Otro nombre al que se le puede hacer referencia es 
+                Barra lateral o menú lateral.
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        
+        
+            <address>
+                <small>
+                    <n style="color: red">
+                        hecho por el alumno: Saenz Colón Irving
+                    </n>
+                    <time datetime="2019/01/26" pubdate>
+                            <s>
+                                Hecho el día 26/01/2019
+                            </s>
+                    </time>
+                </small>
+            </address>
+         
+    </footer>
+    
+
+    
+</body>
+
+</html>
