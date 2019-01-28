@@ -1,8 +1,9 @@
-#navegadorColor{
-    background-color:#607d8b;
+#navegadorColor {
+    background-color: #607d8b;
+   
 }
-li{
-    display:inline;
+#srb{
+    display:inline
 }
 aside{
     float:left;
